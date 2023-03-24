@@ -1,0 +1,169 @@
+/* CSS Testing */
+
+
+.bigred {
+    font-size: 40px;
+    color: red;
+}
+
+.bigred {
+    font-size: 20px;
+}
+
+span.bigred {
+    color: green;
+}
+
+.bigred span{
+    color: blue;
+}
+
+p.bigred span {
+    font-size: 35px;
+}
+
+.block>p {
+    color: orange;
+}
+
+
+/* Fonts */
+
+
+body {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 15px;
+}
+
+.arial {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.font700{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.color {
+    color: red;
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+    text-decoration:underline;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.transform {
+    text-transform: capitalize;
+}
+
+.indent {
+    text-indent: 50px;
+    letter-spacing: 5px;
+}
+
+.wordspacing {
+   word-spacing: 20px; 
+}
+
+.whitespace {
+white-space: normal;
+}
+
+.lineheight {
+line-height: 30px;
+}
+
+/* margin_padding_display */
+
+
+.example-block {
+/* padding: 40px 60px 60px; */
+/* margin: 10px 10px 10px 10px; */
+
+border: 1px solid #000;
+/* width: 500px; */
+
+/* max-width: 500px; */
+/* min-width: 500px; */
+/* height: 50%; */
+margin: 0 0 30px 0;
+
+}
+
+
+
+.example-string {
+width: 500px;
+display: block;
+/* padding: 30px; */
+}
+
+.imgclass {
+    /* width: 100px; */
+    max-height: 200px;
+    display: none;
+}
+
+
+
+/* training_margin_padding */
+
+
+.div1 {
+    width: 60%;
+    padding: 20px;
+    line-height: 1.5;
+}
+.span1 {
+    display: block;
+    padding: 0px 0px 0px 20px;
+
+}
+
+
+.a1 {
+    padding-left: 20px;
+}
+
+
+.div2 {
+    padding: 20px;
+    height: 100px;
+}
+
+
+.div3 {
+    padding: 20px;
+}
+
+
+.p1 {
+    display: inline;
+    padding-left: 30px;
+}
+
+
+.span2 {
+    padding-left: 20px;
+    display: block;
+}
+
+
+.a2 {
+    padding-left: 30px;
+}
+
+
+.span3 {
+    display: block;
+    padding: 40px 20px;
+}
+
+
+/* opacity */
+
