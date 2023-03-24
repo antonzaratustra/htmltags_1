@@ -30,10 +30,7 @@ p.bigred span {
 /* Fonts */
 
 
-body {
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 15px;
-}
+
 
 .arial {
     font-size: 20px;
@@ -167,3 +164,126 @@ display: block;
 
 /* opacity */
 
+
+.example-block2{
+    font-size: 30px;
+    margin: 0 0 30px 0;
+    border: 10px dashed #000;
+    border-top: none; 
+ 
+/* border-bottom: 1px solid #000; */
+    border-radius: 10px 10px 20px 20px;
+}
+
+.example-string2 {
+    font-size: 30px;
+    outline: 10px solid blue;
+    box-shadow: inset 0px 0px 5000px blue;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    text-align: justify;
+
+}
+
+.example-image {
+    outline: 2px solid gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    box-shadow: 5px 5px 10px 5px red;
+    display: block;
+    margin: 40px 40px;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.example-block3 {
+    font-size: 30px;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px gray;
+    /* visibility: hidden; */
+}
+
+.example-block4 {
+    font-size: 30px;
+    padding: 50px;
+    margin: 15px;
+    border-radius: 50px;
+    box-shadow: inset 10px 10px 20px gray;
+}
+
+.paddingdiv {
+    padding: 30px;
+
+}
+
+
+/* background */
+
+body {
+
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 20px;
+    background: fixed;
+    background: url("/img/tile2.jpg") fixed;
+
+}
+
+.blockbg {
+margin: 30px;
+height: 300px;
+border-radius: 15px;
+box-shadow: 2px 2px 10px rgba(211, 6, 242, 0.679);
+
+/* background: yellowgreen; */
+
+/* background-color: rgba(221, 29, 29, 0.5); */
+background: url("/img/bg.jpg") center/ cover  ;
+/* background-position: center; */
+
+}
+
+
+.blockbg2 {
+    margin: 30px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(6, 14, 242, 0.869);
+    opacity: 0.7;
+    /* background: yellowgreen; */
+    /* background-color: rgba(221, 29, 29, 0.5); */
+    background: url("/img/tile.jpg") fixed;
+    background-position: center;
+    
+
+    }
+
+
+    .list {
+        padding-bottom: 20px;
+        padding-left: 30px;
+        letter-spacing: 2px;
+        line-height: 1.4;
+    }
+
+    .list li {
+        color: white;
+        font-size: 30px;
+        background: url("/img/tile.jpg") left 10px no-repeat;
+        background-size: 20px 20px;
+        padding-left: 30px;
+
+    }
+
+    /* pseudoclass */
+
+
+   
+
+    
